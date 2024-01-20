@@ -1,0 +1,28 @@
+# Basic Configuration
+title: PixelBiest |
+description: I’m PixelBiest, a student from Germany. Welcome to my digital space!
+baseurl: /
+
+# Theme Configuration
+theme: midnight
+
+# Source Configuration
+source: src
+
+# Navigation Configuration
+navbar:
+  title: Home
+  items:
+    - text: About
+      url: /about
+    - text: Contact
+      url: /contact
+
+# Build and Output Configuration
+markdown: kramdown
+permalink: /:title/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
