@@ -4,7 +4,7 @@ description: I’m PixelBiest, a student from Germany. Welcome to my digital spa
 baseurl: /
 
 # Theme Configuration
-theme: midnight
+theme: jasonlong/cayman-theme
 
 # Source Configuration
 source: src
