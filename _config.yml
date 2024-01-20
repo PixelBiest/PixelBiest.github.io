@@ -4,7 +4,11 @@ description: I’m PixelBiest, a student from Germany. Welcome to my digital spa
 baseurl: /
 
 # Theme Configuration
-theme: jasonlong/cayman-theme
+remote_theme: pages-themes/cayman@v0.2.0
+
+# Plugins
+plugins:
+- jekyll-remote-theme
 
 # Source Configuration
 source: src
